@@ -4,7 +4,7 @@ const hash = "15aa89127ec7f5cc41b3362aa8c68a9b";
 
 const marvel = {
   render: async () => {
-    const url = `http://gateway.marvel.com/v1/public/characters?limit=8&ts=${ts}&apikey=${apikey}&hash=${hash}`;
+    const url = `https://gateway.marvel.com/v1/public/characters?limit=8&ts=${ts}&apikey=${apikey}&hash=${hash}`;
 
     try {
       const response = await fetch(url);
